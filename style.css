@@ -14,20 +14,15 @@ body {
 }
 .container {
     display: flex;
-    min-height: 100vh;
     justify-content: center;
-    align-items: center;
     background-image: url(images/fondo.png);
     background-size: cover;
     background-position: center;
 }
 
 .container .container-card {
-    min-height: 400px;
-    height: 90vh;
     width: 90vw;
-    min-width: 290px;
-    margin-bottom: 1.5rem;
+    margin: .8rem auto;
     background-color: var(--vpb);
     border-radius: 1.4rem;
     box-shadow: 0 1rem 1.6rem 0.5rem #c7d0f7e8;
@@ -36,9 +31,7 @@ body {
     height: 31.9%;
     margin-bottom: 2.75rem;
     border-radius: 1.4rem 1.4rem 0 0;
-    background-image: url(images/illustration-hero.svg);
-    background-size: cover;
-    background-position: center;
+    width: 100%;
 }
 .container .container-card .title-card {
     margin-bottom: 1.2rem;
@@ -141,6 +134,7 @@ body {
     color: var(--db);
     text-decoration: none;
     font-weight: 800;
+    margin-bottom: 2rem;
 }
 .container .container-card .cancel:hover {
     color: var(--darkb);
@@ -148,6 +142,11 @@ body {
 }
 
 @media (min-width: 500px) {
+    .container{
+        min-height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
     .container .container-card {
         min-height: 700px;
         height: 74vh;
@@ -162,4 +161,5 @@ body {
     .container .container-card .container-product .change-plan {
         margin-right: 1.5rem;
     }
+
 }
