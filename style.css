@@ -1,4 +1,4 @@
-:root{
+:root {
     --pb: hsl(225, 100%, 94%);
     --bb: hsl(245, 75%, 52%);
     --vpb: hsl(225, 100%, 98%);
@@ -6,13 +6,13 @@
     --darkb: hsl(223, 47%, 23%);
     --vdbn: hsl(225, 100%, 96%);
 }
-body{
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Red Hat Display', sans-serif;
-} 
-.container{
+    font-family: "Red Hat Display", sans-serif;
+}
+.container {
     display: flex;
     min-height: 100vh;
     justify-content: center;
@@ -22,7 +22,7 @@ body{
     background-position: center;
 }
 
-.container .container-card{
+.container .container-card {
     min-height: 400px;
     height: 90vh;
     width: 90vw;
@@ -32,7 +32,7 @@ body{
     border-radius: 1.4rem;
     box-shadow: 0 1rem 1.6rem 0.5rem #c7d0f7e8;
 }
-.container .container-card .img-header{
+.container .container-card .img-header {
     height: 31.9%;
     margin-bottom: 2.75rem;
     border-radius: 1.4rem 1.4rem 0 0;
@@ -40,7 +40,7 @@ body{
     background-size: cover;
     background-position: center;
 }
-.container .container-card .title-card{
+.container .container-card .title-card {
     margin-bottom: 1.2rem;
     font-size: 1.8rem;
     text-align: center;
@@ -48,20 +48,20 @@ body{
     font-weight: 900;
 }
 
-.container .container-card .container-description{
+.container .container-card .container-description {
     width: 78%;
     margin: 0 auto;
 }
-.container .container-card .container-description .description{
+.container .container-card .container-description .description {
     margin-bottom: 1.2rem;
     font-size: 1rem;
     font-weight: 600;
     text-align: center;
     line-height: 1.6rem;
     color: var(--darkb);
-    opacity: .8;
+    opacity: 0.8;
 }
-.container .container-card .container-product{
+.container .container-card .container-product {
     display: flex;
     height: 14.15%;
     min-height: 80px;
@@ -73,41 +73,41 @@ body{
     border-radius: 1rem;
 }
 
-.container .container-card .container-product .container-plan{
+.container .container-card .container-product .container-plan {
     display: flex;
 }
 
-.container .container-card .container-product .container-plan .icon-music{
+.container .container-card .container-product .container-plan .icon-music {
     height: 50%;
-    padding: 0 .8rem;
+    padding: 0 0.8rem;
     margin: auto;
 }
- 
-.container .container-card .container-product .container-plan .sub-container .tipe-plan{
+
+.container .container-card .container-product .container-plan .sub-container .tipe-plan {
     padding-top: 0.5rem;
     font-size: 1rem;
     line-height: 0rem;
     color: var(--darkb);
     font-weight: 900;
 }
-.container .container-card .container-product .container-plan .sub-container  .price-plan{
+.container .container-card .container-product .container-plan .sub-container .price-plan {
     font-size: 1.05rem;
     font-weight: 500;
     color: #6d768d;
 }
-.container .container-card .container-product .change-plan{
-    margin-right: 1.5rem;
+.container .container-card .container-product .change-plan {
+    margin-right: 0.8rem;
     font-size: 0.9rem;
     color: var(--bb);
     font-weight: 900;
 }
-.container .container-card .container-product .change-plan:hover{
+.container .container-card .container-product .change-plan:hover {
     text-decoration: none;
     cursor: pointer;
-    opacity: .8;
+    opacity: 0.8;
 }
-.container .container-card .container-proced-payment{  
-    padding: .9rem 0;
+.container .container-card .container-proced-payment {
+    padding: 0.9rem 0;
     width: 88%;
     margin: 0 auto 2rem auto;
     text-align: center;
@@ -117,24 +117,24 @@ body{
     align-items: center;
 }
 
-.container .container-card .container-proced-payment:hover{
+.container .container-card .container-proced-payment:hover {
     background-color: var(--bb);
-    opacity: .7;
+    opacity: 0.7;
     cursor: pointer;
     -webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-ms-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
-.container .container-card .container-proced-payment .proced{
+.container .container-card .container-proced-payment .proced {
     font-size: 1rem;
     color: var(--pb);
     text-decoration: none;
     font-weight: 700;
 }
 
-.container .container-card .cancel{
+.container .container-card .cancel {
     display: block;
     text-align: center;
     font-size: 1rem;
@@ -142,24 +142,24 @@ body{
     text-decoration: none;
     font-weight: 800;
 }
-.container .container-card .cancel:hover{
+.container .container-card .cancel:hover {
     color: var(--darkb);
     cursor: pointer;
 }
 
-
-
-
-@media(min-width: 500px){
-    .container .container-card{
+@media (min-width: 500px) {
+    .container .container-card {
         min-height: 700px;
         height: 74vh;
         width: 24vw;
         min-width: 450px;
     }
-    .container .container-card .container-product .container-plan .icon-music{
+    .container .container-card .container-product .container-plan .icon-music {
         height: 50%;
         padding: 0 1.5rem;
         margin: auto;
+    }
+    .container .container-card .container-product .change-plan {
+        margin-right: 1.5rem;
     }
 }
